@@ -8,7 +8,7 @@ namespace ModelCantina
 {
     public class Conta
     {
-        public int IDConta { get; set; }
+        public int IDConta { get; set; }//codigo da conta
         public Cliente Cliente { get; set; }
         public double Limite { get; set; }
         public double SaldoDevedor { get; set; }
